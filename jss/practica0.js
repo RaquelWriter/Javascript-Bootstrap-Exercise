@@ -1,5 +1,5 @@
 var cuponGastado = false;
-var regaloModal = document.createElement('regalo');
+var regalo = document.createElement('regalo');
 
 function applyCoupon(num) {
   var coupon = document.getElementById('coupon' + num).value.toUpperCase();
@@ -59,14 +59,6 @@ function applyCoupon(num) {
 function mostrarRegalo(num) {
   var regalo = document.getElementById('regalo');
   switch (num) {
-    /*
-    var elem = document.createElement("div");
-elem.innerHTML = "Hello <br> <strong>World<strong> ! <hr>";
-
-swal({
-  content: elem,
-});
-*/
     case 1:
       regaloModal.innerHTML =
         '<div class="card"><div class="card-body"><p><img src="images/tunel2.jpg" class="card-img-top" alt="..."></p><h5 class="card-title">Túnel de felpa</h5><p class="card-text">Cómodo, suave y calentito túnel de felpa para jugar durante el frío invierno.</p><p class="card-text price"><del>27,95 €</del></p><h6 class="card-title price">¡De regalo con tu cupón!</h6></div></div>';
