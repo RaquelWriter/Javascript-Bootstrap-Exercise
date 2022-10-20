@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Práctica Switch</title>
+  <!--SCRIPTS-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+  <script src='js/practica0.js'></script>
+  <!--STYLES and ICO-->
+  <link rel="stylesheet" href="css/practica0.css">
+  <link rel="shortcut icon" href="images/brujula.png" type="image/x-icon">
+
+  <!--SWEETALERT -->
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  <!--FONTS-->
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:wght@400;700&family=Permanent+Marker&display=swap');
+  </style>
+
+</head>
+
+<body>
+  <div class="container text-center">
+
+    <img src="images/cobaya.png" alt="cobaya" />
+
+    <h2>Cobaya World ®</h2>
+    <h4>Cupones descuento: PREMIUM / PLATINUMOTOÑO / VERANO2022</h4>
+    <h4>Cupones regalo: PLATINUM / GOLDEN</h4>
+    <div class="row">
+      <div class="col">
+        <div class="card">
+          <img src="images/casita01.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Tienda de campaña Puppijames </h5>
+            <p class="card-text">Refugio de madera para pequeñas mascotas, el lugar ideal para tomar una siesta o
+              acurrucarse a descansar.</p>
+            <p class="card-text price" id="precio1">65,95 €</p>
+            <p><input type="text" id="coupon1" placeholder='Introduce un cupón' /></p>
+            <button type='button' class="btn btn-primary" onClick="applyCoupon(1)">Aplicar cupón</button>
+        
+          </div>
+        </div>
+      </div>
+
+      
+      <div class="col">
+        <div class="card">
+          <img src="images/casita02.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cueva Tipi</h5>
+            <p class="card-text">Cueva-Tipi para pequeñas mascotas, ideal para largas y calentitas siestas en su rincón
+              favorito de la casa!</p>
+            <p class="card-text price" id="precio2">47,95 €</p>
+            <p><input type="text" id="coupon2" placeholder='Introduce un cupón' /></p>
+            <button type='button' class="btn btn-primary" onClick="applyCoupon(2)">Aplicar cupón</button>
+        
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card">
+          <img src="images/casita03.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Cueva de felpa suave</h5>
+            <p class="card-text">Cómoda, suave y calentita cueva de felpa para jugar y descansar durante el frío
+              invierno.</p>
+            <p class="card-text price" id="precio3">36,95 €</p>
+            <p><input type="text" id="coupon3" placeholder='Introduce un cupón' /></p>
+            <button type='button' class="btn btn-primary" onClick="applyCoupon(3)">Aplicar cupón</button>
+        
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+
+  <!--
+  <h2>Práctica estructura Switch</h2>
+  <p>Usuario que a través de un código promocional pueda conocer u/y obtener un descuento, un artículo, una entrada de
+    cine, etc.</p>
+  <p>Códigos promocionales posibles:
+  <ol>
+    <li>Verano2020</li>
+    <li>Premium01</li>
+    <li>PlatinumOtoño</li>
+    <li>SUSHI2022</li>
+  </ol>
+  </p>
+  <ol>
+    <li>El usuario puede tener o no ya el código
+      <ol>
+        <li>Recibe un dto. o un artículo directo.</li>
+      </ol>
+    </li>
+    <li>El cliente aplica un dto. a una posible compra
+      <ol>
+        <li>Resta o input al precio.</li>
+        <li>O bien algo hacia el futuro.</li>
+      </ol>
+    </li>
+  </ol>
+  <p>Puntuación
+    <ol>
+      <li>Estructura switch 0.6</li>
+      <li>Estructura de scripts anidados o relacionados 0.1 (un botón que abra a un script, que haya más de un script)</li>
+      <li>Estructura de aplicación resposive 0.2</li>
+      <li>Propósito comercial 0.1</li>
+    </ol>
+  </p>
+  -->
+</body>
+
+</html>
