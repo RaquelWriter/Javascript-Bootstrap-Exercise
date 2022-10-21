@@ -16,3 +16,13 @@ h2{
   font-weight: bold;
   font-size: 1.5rem;
 }
+
+.post-it{
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 10 10 10 10px/45px;
+  box-shadow:
+  inset 0 40px 40px rgb(0,0,0,0.2),
+  inset 0 25px 10px rgb(0,0,0,0.2),
+  0 5px 6px 5px rgb(0,0,0,0.2);
+}
